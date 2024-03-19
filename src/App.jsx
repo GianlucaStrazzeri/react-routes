@@ -2,15 +2,14 @@ import { useState } from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
+  return;
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
       
-    
-      
-    </>
-  )
+    </Routes>
+  </Router>;
 }
+
 
 export default App
